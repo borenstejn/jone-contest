@@ -23,6 +23,8 @@ configure :development do
   activate :livereload
 end
 
+sprockets.import_asset 'jquery'
+
 ###
 # Helpers
 ###
