@@ -9,6 +9,10 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# class_option "fonts_dir",
+#     :default => "css/fonts",
+#     :desc    => 'The path to the font files'
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
