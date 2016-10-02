@@ -11,6 +11,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6914,6 +6917,115 @@ button.close {
 }
 
 .font-test {
-  font-family: 'Museo', Fallback, sans-serif;;
+  font-family: 'Museo', Fallback, sans-serif;
 }
 
+
+.main-header {
+  height: 1240px;
+  background-image: image-url('circle.png') ; 
+  background-size:100% auto;
+  background-repeat: no-repeat;
+
+  // background-position: 50%;
+  // background-size: 85%;
+
+}
+
+
+.two-catchlines {
+  margin-top: 380px;
+   margin-bottom: 100px;
+  text-align: center;
+  font-family: 'Museo', Fallback, sans-serif;
+  font-size: 30px;
+  // font-weight: 300;
+}
+
+
+.yellow-color {
+  background-color: rgb(250, 238, 88);
+  // margin-left: 20px;
+  // margin-right: 20px;
+}
+
+.red-color {
+  background-color: rgb(246, 31, 71);
+  padding: 10px;
+  // margin-left: 20px;
+  // margin-right: 20px;
+}
+
+
+.main-video {
+  position: relative;
+   margin: auto;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+
+// .videowrapper {
+//     float: none;
+//     clear: both;
+//     width: 100%;
+//     position: relative;
+//     padding-bottom: 56.25%;
+//     padding-top: 25px;
+//     height: 0;
+// }
+// .videowrapper iframe {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 50%;
+//     height: 50%;
+// }
+
+
+.video-container {
+  margin-bottom: 40px;
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.youtubevideowrap {
+  width:80%;
+  max-width:640px;
+  margin: auto;
+}
+
+.disclaimer {
+  text-align:center;
+  text-transform: uppercase;
+  font-family: 'Museo';
+  font-size: 20px;
+  color: white; 
+
+}
+
+
+.all-page {
+  background-image: image-url('background_blanc.jpg'); 
+  // background-size:100% auto;
+
+}
+
+
+.logo-canal {
+  position: absolute;
+  top:0px;
+  right:0px;
+  height: 100px;
+}
