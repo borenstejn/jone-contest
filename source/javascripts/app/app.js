@@ -1,10 +1,10 @@
-'use strict';
+// 'use strict';
 
-angular.module('myAppName', [])
-  .controller('FirstCtrl', function($scope) {
-       $scope.helloWorld = function() {
-       	console.log("hello world");
-       };
-  });
+// angular.module('myAppName', [])
+//   .controller('FirstCtrl', function($scope) {
+//        $scope.helloWorld = function() {
+//        	console.log("hello world");
+//        };
+//   });
 
-console.log("test chargement");
+// console.log("test chargement");

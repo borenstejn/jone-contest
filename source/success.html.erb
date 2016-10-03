@@ -1,0 +1,116 @@
+
+<script>
+	var QueryString = function () {
+  // This function is anonymous, is executed immediately and 
+  // the return value is assigned to QueryString!
+  var query_string = {};
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+        // If first entry with this name
+    if (typeof query_string[pair[0]] === "undefined") {
+      query_string[pair[0]] = decodeURIComponent(pair[1]);
+        // If second entry with this name
+    } else if (typeof query_string[pair[0]] === "string") {
+      var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
+      query_string[pair[0]] = arr;
+        // If third or later entry with this name
+    } else {
+      query_string[pair[0]].push(decodeURIComponent(pair[1]));
+    }
+  } 
+  return query_string;
+}();
+</script>
+
+
+<%= image_tag('logo-canal.png', :class => "logo-canal")%>
+<div class="all-page">
+  <div class="main-header">
+    <div class="container">
+      <div class="row two-catchlines">
+        <div class="col-md-6 col-xs-12 single-catchline">
+          <div class="col-xs-12 col-md-10 col-md-offset-1 yellow-color">
+            <div class="col-xs-10 col-xs-offset-1">
+              <span class= "cathlines">Les meilleures animés juste après le japon!</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-xs-12 single-catchline">
+          <div class=" col-xs-12 col-md-10 col-md-offset-1 yellow-color">
+            <div class="col-xs-10 col-xs-offset-1">
+              <span class= "cathlines">Toute la pop culture asiatique!</span>
+            </div>
+          </div>
+        </div>
+<!--         <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1 yellow-color">
+          <span class= "catchlines">Les meilleures animés juste après le japon!</span> 
+        </div>
+        <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-0  yellow-color">
+          <span class= "catchlines"> Toute la pop culture asiatique !</span>
+        </div> -->
+      </div>
+    <!--   <div class="row">
+      <div class="col-xs-12">
+        <div class="videowrapper">
+          <iframe src="https://www.youtube.com/embed/rBcbc8eWz6U" frameborder="0"></iframe>
+        </div>
+      </div>
+        
+      </div> -->
+
+      <div class="youtubevideowrap">
+         <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Lgfd9Gt_LGk" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+     
+
+
+
+      <div class="row">
+        <div class="disclaimer"><span class="red-color">J-one c'est la chaîne pop culture manga à J+1 !</span> <br> <span class="red-color">connectée au Japon, retrouvez les meilleurs animés juste après leur diffusion au Japon </span> <br> <span class="red-color">et le meilleur de la pop culture asiatique</span></div>
+
+      </div>
+      
+    <!-- 
+      <a href="https://www.facebook.com/dialog/share?app_id=87741124305&href=https%3A//www.youtube.com/attribution_link%3Fa%3D75HtZJHHi7M%26u%3D%252Fwatch%253Fv%253DrBcbc8eWz6U%2526feature%253Dshare&display=popup&redirect_uri=https://www.youtube.com/facebook_redirect" class="btn btn-primary">Facebook Share</a> -->
+    </div>  
+  </div>
+
+
+
+<!--   <form class="form-inline" accept-charset="UTF-8" action="https://formkeep.com/f/5b845acd6ff8" method="POST">
+    <div class="form-group">
+      <label for="exampleInputName2">Name</label>
+      <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe" name="name_test">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail2">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com" name="email_test">
+    </div>
+    <button type="submit" class="btn btn-primary">Send invitation</button>
+  </form> -->
+
+
+<!--   <div class="container">
+
+    
+    <h1 class= "font-test">UNDER CONSTRUCTION</h1>
+
+
+    <form class="form-inline" accept-charset="UTF-8" action="https://formkeep.com/f/5b845acd6ff8" method="POST">
+    <div class="form-group">
+      <label for="exampleInputName2">Name</label>
+      <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe" name="name_test">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail2">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com" name="email_test">
+    </div>
+    <button type="submit" class="btn btn-primary">Send invitation</button>
+  </form>
+  </div><!-- .welcome --> 
+</div>
+
