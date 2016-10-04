@@ -9,6 +9,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+activate :directory_indexes  #Removes .html from file
+
 # class_option "fonts_dir",
 #     :default => "css/fonts",
 #     :desc    => 'The path to the font files'
