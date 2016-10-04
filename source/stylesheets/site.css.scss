@@ -6916,6 +6916,56 @@ button.close {
   // src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
+@font-face {
+  font-family: 'Museo Huge';
+
+  src: url('/fonts//fonts/Museo_Slab_1000.otf') format('otf'),
+  url('/fonts/Museo_Slab_1000.woff') format('woff');
+  // src: url('/fonts/Museo_Slab_300.woff') format('woff');
+  // src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+
+@font-face {
+  font-family: 'Museo Bolder';
+
+  src: url('/fonts//fonts/Museo_Slab_900.otf') format('otf'),
+  url('/fonts/Museo_Slab_900.woff') format('woff');
+  // src: url('/fonts/Museo_Slab_300.woff') format('woff');
+  // src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+
+@font-face {
+  font-family: 'Museo Bold';
+
+  src: url('/fonts//fonts/Museo_Slab_500.otf') format('otf'),
+  url('/fonts/Museo_Slab_500.woff') format('woff');
+  // src: url('/fonts/Museo_Slab_300.woff') format('woff');
+  // src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+@font-face {
+  font-family: 'Museo Thin';
+
+  src: url('/fonts//fonts/Museo_Slab_100.otf') format('otf'),
+  url('/fonts/Museo_Slab_100.woff') format('woff');
+  // src: url('/fonts/Museo_Slab_300.woff') format('woff');
+  // src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+
+
+@font-face {
+  font-family: 'Museo Bold';
+
+  src: url('/fonts//fonts/Museo_Slab_700.otf') format('otf'),
+  url('/fonts/Museo_Slab_700.woff') format('woff');
+  // src: url('/fonts/Museo_Slab_300.woff') format('woff');
+  // src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+
 .font-test {
   font-family: 'Museo', Fallback, sans-serif;
 }
@@ -7001,7 +7051,7 @@ button.close {
 .disclaimer {
   text-align:center;
   text-transform: uppercase;
-  font-family: 'Museo';
+  font-family: 'Museo Bold';
   font-size: 20px;
   color: white; 
 
@@ -7030,18 +7080,23 @@ button.close {
 
 
 .catchlines {
-  // padding: 10px;
-  // margin: 20px;
+  // font-family: "Museo Bold";
 }
 
 .single-catchline {
   margin-bottom: 40px;
+  font-family: "Museo Bold";
+  font-size: 26px;
 }
 
 
 .contest-header {
-  height: 800px;
-  background-image: image-url('silouhette_moutains.png'); 
+  height: 100%;
+  background-image: image-url('silouhette_moutains_2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+
 
 }
 
@@ -7056,7 +7111,9 @@ button.close {
 }
 
 .contest-title {
+  font-family: "Museo Bolder";
   font-size: 80px;
+  // font-weight: bold;
   @media (max-width: 991px) {
     // margin-top:250px;
   }
@@ -7070,6 +7127,7 @@ button.close {
   // background-image: image-url('yelow-background-1.png'); 
   // background-repeat: no-repeat;
   // background-size: cover;
+  font-family: "Museo Bold";
   color: white;
   background-color: rgb(246, 31, 71);
   padding: 10px;
@@ -7108,6 +7166,7 @@ button.close {
 
 .instruction {
   color: rgb(246, 31, 71);
+  font-family: "Museo Bolder";
 }
 
 
@@ -7115,6 +7174,7 @@ button.close {
   background-color: rgb(246, 31, 71);
   color: white;
   padding:10px;
+  font-family: "Museo Bold";
 }
 
 .form-sections .col-form-label {
@@ -7122,9 +7182,10 @@ button.close {
 }
 
 .form-sections {
+  font-family: "Museo Bold";
   text-transform: none;
   background-color: rgba(255, 255, 255, 0.4);
-  padding: 60px;
+  padding: 40px;
   @media (max-width: 767px) {
     padding: 20px;
     // margin-top: -10px;
@@ -7134,19 +7195,34 @@ button.close {
 
 
 .btn-send {
+  font-family: "Museo Bold";
   border-radius: 80px;
   background-color: rgb(246, 31, 71);
   color: white;
   border: 2px solid rgb(196,7, 41) ;
-  font-size: 20px;
+  font-size: 26px;
+  &:hover {
+    text-decoration: none !important;
+  }
 }
-
 
 
 .test-opacity {
   opacity: 0.8;
 }
 
+.answers {
+  margin-top: 30px;
+}
 
 
+
+.radio {
+  margin-bottom: 25px;
+}
+
+.form-instruction {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
 
