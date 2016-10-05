@@ -7003,9 +7003,13 @@ button.close {
 
 
 .yellow-color {
-  background-image: image-url('yelow-background-1.png'); 
+  background-image: image-url('yellow-stroke.svg'); 
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 150px;
+  // background-size: cover;
   // margin: 10px;
   // padding-top: 7px;
   // padding-bottom: 7px;
@@ -7062,6 +7066,7 @@ button.close {
   background-image: image-url('background_blanc.jpg'); 
   font-family: 'Museo', Fallback, sans-serif;
   text-transform: uppercase;
+  color: black; 
 }
 
 
@@ -7080,13 +7085,19 @@ button.close {
 
 
 .catchlines {
-  // font-family: "Museo Bold";
+  padding-top: 18px;
+    @media (max-width: 991px) {
+    padding-top: 28px;
+  }
 }
 
 .single-catchline {
   margin-bottom: 40px;
   font-family: "Museo Bold";
   font-size: 26px;
+  @media (max-width: 600px) {
+    font-size: 22px;
+  }
 }
 
 
@@ -7186,6 +7197,7 @@ button.close {
   text-transform: none;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 40px;
+  margin-bottom: 30px;
   @media (max-width: 767px) {
     padding: 20px;
     // margin-top: -10px;
@@ -7225,4 +7237,12 @@ button.close {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+
+.vertical-spacer {
+  height: 4em;
+  @media (max-width: 767px) {
+  height: 0px;
+  }
+}
+
 
