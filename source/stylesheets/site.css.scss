@@ -7236,6 +7236,9 @@ button.close {
 
 .test-opacity {
   opacity: 0.8;
+   @media (max-width: 767px) {
+    opacity: 1;
+  }
 }
 
 .answers {
