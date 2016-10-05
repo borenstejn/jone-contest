@@ -6972,7 +6972,7 @@ button.close {
 
 
 .main-header {
-  height: 1240px;
+  // height: 1240px;
   background-image: image-url('circle.png') ; 
   background-size:100% auto;
   background-repeat: no-repeat;
@@ -6992,9 +6992,10 @@ button.close {
   text-transform: uppercase;
   @media (max-width: 991px) {
     margin-top:250px;
+    margin-bottom: 60px;
   }
   @media (max-width: 767px) {
-    margin-top:150px;
+    margin-bottom: 40px;
   }
   // font-weight: 300;
 }
@@ -7018,6 +7019,9 @@ button.close {
 .red-color {
   background-color: rgb(246, 31, 71);
   padding: 10px;
+   @media (max-width: 767px) {
+    padding:5px;
+  }
 }
 
 
@@ -7058,6 +7062,10 @@ button.close {
   font-family: 'Museo Bold';
   font-size: 20px;
   color: white; 
+  @media (max-width: 767px) {
+    font-size: 14px;
+    // margin-top: -10px;
+  }
 
 }
 
@@ -7075,6 +7083,13 @@ button.close {
   top:0px;
   right:0px;
   height: 100px;
+  @media (max-width: 991px) {
+    height: 80px;
+  }
+  @media (max-width: 797px) {
+    height: 60px;
+  }
+
 }
 
 // #yellow-background-1 {
@@ -7092,7 +7107,7 @@ button.close {
 }
 
 .single-catchline {
-  margin-bottom: 40px;
+  // margin-bottom: 40px;
   font-family: "Museo Bold";
   font-size: 26px;
   @media (max-width: 600px) {
@@ -7238,7 +7253,16 @@ button.close {
   margin-bottom: 20px;
 }
 
+
+
 .vertical-spacer {
+  height: 6em;
+}
+
+
+
+
+.half-vertical-spacer {
   height: 4em;
   @media (max-width: 767px) {
   height: 0px;
