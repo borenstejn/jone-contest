@@ -7016,6 +7016,14 @@ button.close {
   // padding-bottom: 7px;
 }
 
+.success-message {
+  @media (max-width: 767px) {
+    padding-top: 13px !important;
+    padding-bottom: 0px !important;
+    font-size: 18px !important;
+  }
+}
+
 .red-color {
   background-color: rgb(246, 31, 71);
   padding: 10px;
