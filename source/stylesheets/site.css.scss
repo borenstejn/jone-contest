@@ -7209,7 +7209,7 @@ button.close {
 }
 
 .intro-and-ticket {
-  margin-bottom: 700px;
+  // margin-bottom: 700px;
 }
 
 .contest-intro {
@@ -7318,8 +7318,9 @@ button.close {
   text-decoration: underline;
 }
 
-.instruction {
+.instruction-text {
   color: rgb(246, 31, 71);
+  font-size: 13px;
   font-family: "Museo_900";
 }
 
@@ -7328,7 +7329,11 @@ button.close {
   margin-top: 300px;
   background-color: rgb(246, 31, 71);
   color: white;
-  padding:10px;
+  font-size: 13px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left: 10px;
+  padding-right: 24px;
   font-family: "Museo_700";
   font-style: italic;
 }
@@ -7342,11 +7347,11 @@ button.close {
 }
 
 .form-sections .col-form-label {
+  font-family: "Museo_700";
   margin-top: 12px;
 }
 
 .form-sections {
-  font-family: "Museo_700";
   text-transform: none;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 40px;
@@ -7380,7 +7385,10 @@ button.close {
 }
 
 .answers {
-  margin-top: 30px;
+  margin-top: 20px;
+  font-size:13px;
+  font-family: "Museo_700";
+  padding-left: 30px;
 }
 
 
@@ -7390,12 +7398,13 @@ button.close {
 }
 
 .form-instruction {
+  font-family: "Museo_900";
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
 .form-sections {
-  font-size: 16px;
+  font-size: 12px;
   @media (max-width: 767px) {
     opacity: 12px;
   }
@@ -7444,6 +7453,40 @@ button.close {
 
 .ticket-image img {
   height: 220px;
+}
+
+.japanese-girl-image {
+  // opacity: 0.4;
+  position: absolute;
+  right: 16px;
+  top: 38px;
+  margin-left: -235px;
+  @media (max-width: 1199px) {
+    margin-left: -80px;
+  }
+}
+
+.japanese-girl-image img {
+  height: 165px;
+}
+
+.contest-body {
+  margin-bottom: 700px;
+  
+  // padding: 10px;
+  // height: 155px;
+  // margin-top: 10px;
+  // text-align:center;
+  background-color: rgba(250, 238, 88, 0.8);
+  @media (min-width: 1200px) {
+    // width: 822px;
+    // margin-left: 175px !important;
+  }
+}
+
+
+.instruction {
+  margin-top: 12px;
 }
 
 // body {
