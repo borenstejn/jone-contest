@@ -7445,6 +7445,7 @@ button.close {
 
 
 .ticket-image {
+  z-index: 1;
   margin-left: -235px;
   @media (max-width: 1199px) {
     margin-left: -80px;
@@ -7471,6 +7472,7 @@ button.close {
 }
 
 .contest-body {
+  margin-top: -40px;
   margin-bottom: 700px;
   
   // padding: 10px;
@@ -7487,6 +7489,11 @@ button.close {
 
 .instruction {
   margin-top: 12px;
+}
+
+
+.second-part {
+
 }
 
 // body {
