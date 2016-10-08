@@ -6973,9 +6973,9 @@ button.close {
 
 .main-header {
   // height: 1240px;
-  background-image: image-url('circle.png') ; 
-  background-size:100% auto;
-  background-repeat: no-repeat;
+  // background-image: image-url('circle.png') ; 
+  // background-size:100% auto;
+  // background-repeat: no-repeat;
 
   // background-position: 50%;
   // background-size: 85%;
@@ -6984,8 +6984,8 @@ button.close {
 
 
 .two-catchlines {
-  margin-top: 380px;
-   margin-bottom: 100px;
+  margin-top: 140px;
+  margin-bottom: 12px;
   text-align: center;
   font-family: 'Museo', Fallback, sans-serif;
   font-size: 30px;
@@ -6995,7 +6995,9 @@ button.close {
     margin-bottom: 60px;
   }
   @media (max-width: 767px) {
+    margin-top:140px;
     margin-bottom: 40px;
+    // font-size: 10px !important;
   }
   // font-weight: 300;
 }
@@ -7003,18 +7005,21 @@ button.close {
 
 
 
-.yellow-color {
-  background-image: image-url('yellow-stroke.svg'); 
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 150px;
-  // background-size: cover;
-  // margin: 10px;
-  // padding-top: 7px;
-  // padding-bottom: 7px;
-}
+// .yellow-color {
+//   background-image: image-url('yellow-stroke.svg'); 
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+//   padding-top: 30px;
+//   padding-bottom: 30px;
+//   height: 150px;
+//   // background-size: cover;
+//   // margin: 10px;
+//   // padding-top: 7px;
+//   // padding-bottom: 7px;
+// }
+
+
+
 
 .success-message {
   @media (max-width: 767px) {
@@ -7026,7 +7031,10 @@ button.close {
 
 .red-color {
   background-color: rgb(246, 31, 71);
-  padding: 10px;
+   padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
    @media (max-width: 767px) {
     padding:5px;
   }
@@ -7059,17 +7067,20 @@ button.close {
 }
 
 .youtubevideowrap {
-  width:80%;
-  max-width:640px;
+  width:100%;
+  max-width:662px;
   margin: auto;
 }
 
 .disclaimer {
+  margin-top: -20px;
   text-align:center;
   text-transform: uppercase;
   font-family: 'Museo Bold';
-  font-size: 20px;
+  font-size: 15px;
   color: white; 
+  // position: absolute;
+  // bottom: 0px;
   @media (max-width: 767px) {
     font-size: 14px;
     // margin-top: -10px;
@@ -7079,7 +7090,9 @@ button.close {
 
 
 .all-page {
-  background-image: image-url('background_blanc.jpg'); 
+  background-image: image-url('template.png'); 
+  background-size: contain;
+  background-color: black;
   font-family: 'Museo', Fallback, sans-serif;
   text-transform: uppercase;
   color: black; 
@@ -7090,9 +7103,9 @@ button.close {
   position: absolute;
   top:0px;
   right:0px;
-  height: 100px;
+  height: 150px;
   @media (max-width: 991px) {
-    height: 80px;
+    height: 90px;
   }
   @media (max-width: 797px) {
     height: 60px;
@@ -7108,7 +7121,7 @@ button.close {
 
 
 .catchlines {
-  padding-top: 18px;
+  // padding-top: 18px;
     @media (max-width: 991px) {
     padding-top: 28px;
   }
@@ -7116,10 +7129,57 @@ button.close {
 
 .single-catchline {
   // margin-bottom: 40px;
-  font-family: "Museo Bold";
-  font-size: 26px;
+  font-family: "Museo Bolder";
+  font-size: 16px;
   @media (max-width: 600px) {
-    font-size: 22px;
+    font-size: 16px;
+  }
+}
+
+.first-catchline {
+  background-image: image-url('yellow-stroke.svg'); 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-left: 3px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 120%;
+  @media (min-width: 1200px) {
+    height: 74px;
+    width: 292px;
+    margin-top:8px;
+    margin-left: -60px;
+    // margin-left: -162px;
+  }
+   @media (max-width: 767px) {
+    height: 80px;
+    padding-top: 0px;
+  }
+  
+}
+
+.second-catchline {
+  // padding-top: 10px;
+  background-image: image-url('yellow-stroke.svg'); 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 37px;
+  padding-bottom: 30px;
+  @media (min-width: 1200px) {
+    height: 72px;
+    width: 386px;
+    margin-left: -60px;
+  }
+   @media (max-width: 767px) {
+    height: 80px;
+    padding-top: 0px;
+  }
+  
+}
+
+.ticket-image {
+   @media (min-width: 1200px) {
+    margin-left: -98px;
   }
 }
 
@@ -7146,7 +7206,7 @@ button.close {
 
 .contest-title {
   font-family: "Museo Bolder";
-  font-size: 80px;
+  font-size: 90px;
   // font-weight: bold;
   @media (max-width: 991px) {
     // margin-top:250px;
@@ -7158,13 +7218,22 @@ button.close {
 
 
 .torn-paper-text {
+  background-image: image-url('yellow-stroke.svg'); 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 120%;
   // background-image: image-url('yelow-background-1.png'); 
   // background-repeat: no-repeat;
   // background-size: cover;
   font-family: "Museo Bold";
   color: white;
-  background-color: rgb(246, 31, 71);
-  padding: 10px;
+  // background-color: rgb(246, 31, 71);
+  // padding-right: 10px;
+  // padding-left: 10px;
+  // padding-top: 5px;
+  // padding-bottom: 5px;
 }
 
 
@@ -7183,6 +7252,7 @@ button.close {
 
 
 .disclaimer-bis {
+  line-height: 120%;
   font-size: 22px;
   @media (max-width: 991px) {
     // margin-top:250px;
@@ -7209,6 +7279,15 @@ button.close {
   color: white;
   padding:10px;
   font-family: "Museo Bold";
+  font-style: italic;
+}
+
+.question {
+  font-size: 20px;
+  @media (max-width: 767px) {
+    font-size: 17px;
+    // margin-top: -10px;
+  }
 }
 
 .form-sections .col-form-label {
@@ -7264,6 +7343,13 @@ button.close {
   margin-bottom: 20px;
 }
 
+.form-sections {
+  font-size: 16px;
+  @media (max-width: 767px) {
+    opacity: 12px;
+  }
+}
+
 
 
 .vertical-spacer {
@@ -7280,4 +7366,25 @@ button.close {
   }
 }
 
+.quarter-vertical-spacer {
+  height: 2em;
+  @media (max-width: 767px) {
+  height: 1em;
+  }
+}
 
+
+.nowrap {
+  white-space: nowrap;
+}
+
+
+.over {
+  background-color: rgba(255,255,255, 0.7);
+}
+
+// body {
+//     -moz-transform: scale(0.6, 0.6); /* Moz-browsers */
+//     zoom: 0.6; /* Other non-webkit browsers */
+//     zoom: 60%; /* Webkit browsers */
+// }
