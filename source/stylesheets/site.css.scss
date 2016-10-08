@@ -6904,7 +6904,7 @@ button.close {
 }
 
 @font-face {
-  font-family: 'Museo';
+  font-family: 'Museo_300';
 
   src: url(' /fonts//fonts/Museo_Slab_300.eot') format('eot'),
   url('/fonts//fonts/Museo_Slab_300.otf') format('otf'),
@@ -6917,7 +6917,7 @@ button.close {
 }
 
 @font-face {
-  font-family: 'Museo Huge';
+  font-family: 'Museo_1000';
 
   src: url('/fonts//fonts/Museo_Slab_1000.otf') format('otf'),
   url('/fonts/Museo_Slab_1000.woff') format('woff');
@@ -6927,7 +6927,7 @@ button.close {
 
 
 @font-face {
-  font-family: 'Museo Bolder';
+  font-family: 'Museo_900';
 
   src: url('/fonts//fonts/Museo_Slab_900.otf') format('otf'),
   url('/fonts/Museo_Slab_900.woff') format('woff');
@@ -6937,7 +6937,7 @@ button.close {
 
 
 @font-face {
-  font-family: 'Museo Bold';
+  font-family: 'Museo_500';
 
   src: url('/fonts//fonts/Museo_Slab_500.otf') format('otf'),
   url('/fonts/Museo_Slab_500.woff') format('woff');
@@ -6946,7 +6946,7 @@ button.close {
 }
 
 @font-face {
-  font-family: 'Museo Thin';
+  font-family: 'Museo_100';
 
   src: url('/fonts//fonts/Museo_Slab_100.otf') format('otf'),
   url('/fonts/Museo_Slab_100.woff') format('woff');
@@ -6957,7 +6957,7 @@ button.close {
 
 
 @font-face {
-  font-family: 'Museo Bold';
+  font-family: 'Museo_700';
 
   src: url('/fonts//fonts/Museo_Slab_700.otf') format('otf'),
   url('/fonts/Museo_Slab_700.woff') format('woff');
@@ -7076,7 +7076,7 @@ button.close {
   margin-top: -20px;
   text-align:center;
   text-transform: uppercase;
-  font-family: 'Museo Bold';
+  font-family: 'Museo_700';
   font-size: 15px;
   color: white; 
   // position: absolute;
@@ -7093,7 +7093,16 @@ button.close {
   background-image: image-url('template.png'); 
   background-size: contain;
   background-color: black;
-  font-family: 'Museo', Fallback, sans-serif;
+  font-family: 'Museo_300', Fallback, sans-serif;
+  text-transform: uppercase;
+  color: black; 
+}
+
+.formulaire {
+  background-image: image-url('lower_template.png'); 
+  background-size: contain;
+  background-color: black;
+  font-family: 'Museo_300', Fallback, sans-serif;
   text-transform: uppercase;
   color: black; 
 }
@@ -7129,7 +7138,7 @@ button.close {
 
 .single-catchline {
   // margin-bottom: 40px;
-  font-family: "Museo Bolder";
+  font-family: "Museo_900";
   font-size: 16px;
   @media (max-width: 600px) {
     font-size: 16px;
@@ -7196,17 +7205,30 @@ button.close {
 
 .contest-container {
   // height: 400px;
-  background-color: rgba(250, 238, 88, 0.8);
+  // background-color: rgba(250, 238, 88, 0.8);
+}
+
+.intro-and-ticket {
+  margin-bottom: 700px;
 }
 
 .contest-intro {
+  
+  padding: 10px;
+  height: 155px;
+  margin-top: 10px;
   text-align:center;
-  padding-top:20px;
+  background-color: rgba(250, 238, 88, 0.8);
+  @media (min-width: 1200px) {
+    width: 822px;
+    margin-left: 175px !important;
+  }
 }
 
 .contest-title {
-  font-family: "Museo Bolder";
-  font-size: 90px;
+  // line-height: 70%;
+  font-family: "Museo_900";
+  font-size: 60px;
   // font-weight: bold;
   @media (max-width: 991px) {
     // margin-top:250px;
@@ -7218,29 +7240,55 @@ button.close {
 
 
 .torn-paper-text {
-  background-image: image-url('yellow-stroke.svg'); 
+  background-image: image-url('red-stroke.svg'); 
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  line-height: 120%;
-  // background-image: image-url('yelow-background-1.png'); 
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  font-family: "Museo Bold";
+
+  font-family: "Museo_900";
   color: white;
-  // background-color: rgb(246, 31, 71);
-  // padding-right: 10px;
-  // padding-left: 10px;
-  // padding-top: 5px;
-  // padding-bottom: 5px;
+  padding: 11px 25px 3px 25px;
+  
+  
+
+  // width: 360px;
+  // margin-right: 40px;
+  @media (min-width: 1200px) {
+    // height: 34px;
+    // padding-top: 8px;
+
+  }
+   @media (max-width: 767px) {
+    // height: 80px;
+    // padding-top: 0px;
+  }
+ 
+}
+
+
+.first-catchline {
+  padding-left: 3px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 120%;
+  @media (min-width: 1200px) {
+    height: 74px;
+    width: 292px;
+    margin-top:8px;
+    margin-left: -60px;
+    // margin-left: -162px;
+  }
+   @media (max-width: 767px) {
+    height: 80px;
+    padding-top: 0px;
+  }
+  
 }
 
 
 .win-a-trip {
-  margin-top: -20px;
-  margin-bottom: 6px;
-  font-size: 26px;
+  margin-top: -18px;
+  // margin-bottom: 6px;
+  font-size: 18px;
   @media (max-width: 991px) {
     // margin-top:250px;
   }
@@ -7251,9 +7299,11 @@ button.close {
 }
 
 
+
 .disclaimer-bis {
   line-height: 120%;
-  font-size: 22px;
+  font-size: 15px;
+  font-family: "Museo_700";
   @media (max-width: 991px) {
     // margin-top:250px;
   }
@@ -7270,15 +7320,16 @@ button.close {
 
 .instruction {
   color: rgb(246, 31, 71);
-  font-family: "Museo Bolder";
+  font-family: "Museo_900";
 }
 
 
 .question-text {
+  margin-top: 300px;
   background-color: rgb(246, 31, 71);
   color: white;
   padding:10px;
-  font-family: "Museo Bold";
+  font-family: "Museo_700";
   font-style: italic;
 }
 
@@ -7295,7 +7346,7 @@ button.close {
 }
 
 .form-sections {
-  font-family: "Museo Bold";
+  font-family: "Museo_700";
   text-transform: none;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 40px;
@@ -7309,7 +7360,7 @@ button.close {
 
 
 .btn-send {
-  font-family: "Museo Bold";
+  font-family: "Museo_700";
   border-radius: 80px;
   background-color: rgb(246, 31, 71);
   color: white;
@@ -7381,6 +7432,18 @@ button.close {
 
 .over {
   background-color: rgba(255,255,255, 0.7);
+}
+
+
+.ticket-image {
+  margin-left: -235px;
+  @media (max-width: 1199px) {
+    margin-left: -80px;
+  }
+}
+
+.ticket-image img {
+  height: 220px;
 }
 
 // body {
