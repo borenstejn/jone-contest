@@ -7226,6 +7226,10 @@ button.close {
     width: 822px;
     margin-left: 175px !important;
   }
+  @media (max-width: 767px) {
+    height: 100%;
+    // margin-left: 175px !important;
+  }
 }
 
 .contest-title {
@@ -7325,6 +7329,9 @@ button.close {
   color: rgb(246, 31, 71);
   font-size: 13px;
   font-family: "Museo_900";
+   @media (max-width: 767px) {
+    font-size:11px;
+  }
 }
 
 
@@ -7451,12 +7458,57 @@ button.close {
   z-index: 1;
   margin-left: -235px;
   @media (max-width: 1199px) {
-    margin-left: -80px;
+    margin-left: -200px;
+  }
+  @media (max-width: 991px) {
+    margin-left: -130px;
+  }
+  @media (max-width: 767px) {
+    display: block;
+    margin: auto;
   }
 }
 
 .ticket-image img {
   height: 220px;
+  @media (max-width: 1199px) {
+    // margin-left: -80px;
+  }
+   @media (max-width: 767px) {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+.ticket-image-xs {
+  margin-top: 20px;
+
+  display: none;
+  @media (max-width: 767px) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-top: 20px;
+  }
+}
+
+.ticket-image-xs img {
+  height: 200px;
+}
+
+.tik-image {
+  display: none;
+  @media (max-width: 767px) {
+    display: block;
+  }
+}
+
+
+.tik-image img{
+  height: 220px;
+
 }
 
 .japanese-girl-image {
@@ -7487,11 +7539,17 @@ button.close {
     // width: 822px;
     // margin-left: 175px !important;
   }
+    @media (max-width: 767px) {
+    margin-top: 30px
+  }
 }
 
 
 .instruction {
   margin-top: 12px;
+  @media (max-width: 991px) {
+    padding-top: 12px;
+  }
 }
 
 
