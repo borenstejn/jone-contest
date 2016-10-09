@@ -6973,9 +6973,11 @@ button.close {
 
 .main-header {
   // height: 1240px;
-  // background-image: image-url('circle.png') ; 
-  // background-size:100% auto;
-  // background-repeat: no-repeat;
+  background-image: image-url('circle.png') ; 
+  // background-image: image-url('circle-mobile.png') ; 
+  background-size:150%;
+  background-repeat: no-repeat;
+  background-position: center top;
 
   // background-position: 50%;
   // background-size: 85%;
@@ -6995,7 +6997,7 @@ button.close {
     margin-bottom: 60px;
   }
   @media (max-width: 767px) {
-    margin-top:140px;
+    margin-top:160px;
     margin-bottom: 40px;
     // font-size: 10px !important;
   }
@@ -7090,18 +7092,19 @@ button.close {
 
 
 .all-page {
-  background-image: image-url('template.png'); 
+  // background-image: image-url('template.png'); 
+  // background-image: image-url('template.png'); 
   background-size: contain;
-  background-color: black;
+  // background-color: black;
   font-family: 'Museo_300', Fallback, sans-serif;
   text-transform: uppercase;
   color: black; 
 }
 
 .formulaire {
-  background-image: image-url('lower_template.png'); 
-  background-size: contain;
-  background-color: black;
+  // background-image: image-url('lower_template.png'); 
+  // background-size: contain;
+  // background-color: black;
   font-family: 'Museo_300', Fallback, sans-serif;
   text-transform: uppercase;
   color: black; 
@@ -7141,7 +7144,7 @@ button.close {
   font-family: "Museo_900";
   font-size: 16px;
   @media (max-width: 600px) {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
