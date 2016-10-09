@@ -7095,6 +7095,7 @@ button.close {
 
 
 .all-page {
+  background-image: image-url('white_background.jpg'); 
   // background-image: image-url('template.png'); 
   // background-image: image-url('template.png'); 
   background-size: contain;
@@ -7203,7 +7204,7 @@ button.close {
   height: 100%;
   background-image: image-url('silouhette_moutains_2.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  // background-attachment: fixed;
   background-position: center bottom;
 
 
@@ -7471,9 +7472,9 @@ button.close {
 }
 
 
-.over {
-  background-color: rgba(255,255,255, 0.7);
-}
+// .over {
+//   background-color: rgba(255,255,255, 0.7);
+// }
 
 
 .ticket-image {
