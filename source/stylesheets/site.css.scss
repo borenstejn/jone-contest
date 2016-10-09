@@ -6972,13 +6972,16 @@ button.close {
 
 
 .main-header {
-  // height: 1240px;
   background-image: image-url('circle.png') ; 
-  // background-image: image-url('circle-mobile.png') ; 
-  background-size:150%;
+  // background-image: image-url('circle-mobile.png') ;
   background-repeat: no-repeat;
+  background-size : 46%;
   background-position: center top;
-
+  @media (max-width: 767px) {
+    background-size:150%;
+    
+    background-position: center top;
+  }
   // background-position: 50%;
   // background-size: 85%;
 
@@ -7348,6 +7351,25 @@ button.close {
   font-style: italic;
 }
 
+.question-text-xs {
+  display: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(246, 31, 71);
+  color: white;
+  font-size: 13px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left: 10px;
+  padding-right: 24px;
+  font-family: "Museo_700";
+  font-style: italic;
+  text-align: justify;
+  @media (max-width: 767px) {
+    display: block;
+  }
+}
+
 .question {
   font-size: 20px;
   @media (max-width: 767px) {
@@ -7472,7 +7494,6 @@ button.close {
 .ticket-image img {
   height: 220px;
   @media (max-width: 1199px) {
-    // margin-left: -80px;
   }
    @media (max-width: 767px) {
     display:block;
@@ -7512,7 +7533,6 @@ button.close {
 }
 
 .japanese-girl-image {
-  // opacity: 0.4;
   position: absolute;
   right: 16px;
   top: 38px;
@@ -7520,24 +7540,26 @@ button.close {
   @media (max-width: 1199px) {
     margin-left: -80px;
   }
+  @media (max-width: 767px) {
+    top: 103px;
+    right: 24px;
+  }
 }
 
 .japanese-girl-image img {
   height: 165px;
+  @media (max-width: 767px) {
+    height: 130px;
+  }
 }
 
 .contest-body {
   margin-top: -40px;
   margin-bottom: 700px;
   
-  // padding: 10px;
-  // height: 155px;
-  // margin-top: 10px;
-  // text-align:center;
   background-color: rgba(250, 238, 88, 0.8);
   @media (min-width: 1200px) {
-    // width: 822px;
-    // margin-left: 175px !important;
+
   }
     @media (max-width: 767px) {
     margin-top: 30px
@@ -7555,6 +7577,14 @@ button.close {
 
 .second-part {
 
+}
+
+
+.row-xs {
+  display: none;
+  @media (max-width: 767px) {
+    display: block;
+  }
 }
 
 // body {
