@@ -6972,13 +6972,15 @@ button.close {
 
 
 .main-header {
-  background-image: image-url('circle.png') ; 
+  background-image: image-url('circle-new.png') ; 
   // background-image: image-url('circle-mobile.png') ;
   background-repeat: no-repeat;
-  background-size : 46%;
+  background-size : 100%;
   background-position: center top;
   @media (max-width: 767px) {
-    background-size:150%;
+    // background-size:146%;
+    background-size: cover;
+    background-image: image-url('circle-full-2.png') ;
     
     background-position: center top;
   }
@@ -6996,8 +6998,8 @@ button.close {
   font-size: 30px;
   text-transform: uppercase;
   @media (max-width: 991px) {
-    margin-top:250px;
-    margin-bottom: 60px;
+    margin-top:140px;
+    // margin-bottom: 30px;
   }
   @media (max-width: 767px) {
     margin-top:160px;
@@ -7138,7 +7140,7 @@ button.close {
 
 .catchlines {
   // padding-top: 18px;
-    @media (max-width: 991px) {
+    @media (max-width: 767px) {
     padding-top: 28px;
   }
 }
@@ -7167,6 +7169,17 @@ button.close {
     margin-left: -60px;
     // margin-left: -162px;
   }
+  @media (min-width: 767px) {
+    height: 74px;
+    width: 292px;
+    margin-top:8px;
+    margin-left: -110px;
+    // margin-left: -162px;
+  }
+  @media (max-width: 767px) {
+    // height: 20px;
+    padding-top: 0px;
+  }
    @media (max-width: 767px) {
     height: 80px;
     padding-top: 0px;
@@ -7182,6 +7195,11 @@ button.close {
   padding-top: 37px;
   padding-bottom: 30px;
   @media (min-width: 1200px) {
+    height: 72px;
+    width: 386px;
+    margin-left: -60px;
+  }
+  @media (min-width: 767px) {
     height: 72px;
     width: 386px;
     margin-left: -60px;
@@ -7556,7 +7574,7 @@ button.close {
 
 .contest-body {
   margin-top: -40px;
-  margin-bottom: 700px;
+  // margin-bottom: 700px;
   
   background-color: rgba(250, 238, 88, 0.8);
   @media (min-width: 1200px) {
