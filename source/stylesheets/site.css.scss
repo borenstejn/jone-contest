@@ -7109,8 +7109,8 @@ button.close {
 .logo-canal {
   position: absolute;
   top:0px;
-  right:0px;
-  height: 150px;
+  right:70px;
+  height: 140px;
   @media (max-width: 991px) {
     height: 130px;
   }
@@ -7138,7 +7138,7 @@ button.close {
  
   height: 80px;
   @media (max-width: 600px) {
-    height: 60px;
+    // height: 80px;
   }
 
 }
@@ -7218,7 +7218,7 @@ button.close {
     margin-left: -60px;
   }
    @media (max-width: 767px) {
-    height: 80px;
+    height: 60px;
     padding-top: 0px;
   }
   
@@ -7460,13 +7460,25 @@ button.close {
   text-transform: none;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 40px;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
   @media (max-width: 767px) {
     padding: 20px;
     // margin-top: -10px;
   }
 
 }
+
+.reglement {
+  text-transform: none;
+  text-decoration: underline;
+  // padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  
+
+}
+
 
 
 .btn-send {
@@ -7659,6 +7671,7 @@ button.close {
     display: block;
   }
 }
+
 
 // body {
 //     -moz-transform: scale(0.6, 0.6); /* Moz-browsers */
