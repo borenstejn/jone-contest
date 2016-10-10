@@ -7696,6 +7696,31 @@ button.close {
 }
 
 
+.link-to-canal {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-family: 'Museo_700';
+}
+
+.link-to-canal-black {
+  margin-top: 30px;
+  text-align: center;
+  color: black;
+  font-family: 'Museo_700';
+
+}
+
+
+.canal-link-text {
+  padding: 20px;
+  background-color: rgba(256,256,256, 0.7);
+  @media (max-width: 767px) {
+    font-size : 14px;
+  }
+}
+
+
 // body {
 //     -moz-transform: scale(0.6, 0.6); /* Moz-browsers */
 //     zoom: 0.6; /* Other non-webkit browsers */
