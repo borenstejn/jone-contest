@@ -6972,22 +6972,20 @@ button.close {
 
 
 .main-header {
-  background-image: image-url('circle-new.png') ; 
+  background-image: image-url('circle-opacity-2.png') ; 
   // background-image: image-url('circle-mobile.png') ;
   background-repeat: no-repeat;
-  background-size : 100%;
-  background-position: center top;
+  background-size : 120%;
+  background-position: center -50px;
   @media (max-width: 767px) {
-    // background-size:146%;
     background-size: cover;
-    background-image: image-url('circle-full-2.png') ;
+    background-image: image-url('circle-opacity-2.png') ;
     
     background-position: center top;
   }
-  // background-position: 50%;
-  // background-size: 85%;
 
 }
+
 
 
 .two-catchlines {
@@ -7002,28 +7000,19 @@ button.close {
     // margin-bottom: 30px;
   }
   @media (max-width: 767px) {
-    margin-top:160px;
-    margin-bottom: 40px;
+    margin-top:200px;
+    margin-bottom: 20px;
+    // font-size: 10px !important;
+  }
+  @media (max-width: 627px) {
+    margin-top:180px;
+    margin-bottom: 20px;
     // font-size: 10px !important;
   }
   // font-weight: 300;
 }
 
 
-
-
-// .yellow-color {
-//   background-image: image-url('yellow-stroke.svg'); 
-//   background-size: 100% 100%;
-//   background-repeat: no-repeat;
-//   padding-top: 30px;
-//   padding-bottom: 30px;
-//   height: 150px;
-//   // background-size: cover;
-//   // margin: 10px;
-//   // padding-top: 7px;
-//   // padding-bottom: 7px;
-// }
 
 
 
@@ -7123,9 +7112,32 @@ button.close {
   right:0px;
   height: 150px;
   @media (max-width: 991px) {
+    height: 130px;
+  }
+  @media (max-width: 767px) {
     height: 90px;
   }
-  @media (max-width: 797px) {
+
+}
+
+
+.logo-canal-half {
+  // background:red;
+  width:130px;
+  position:absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  @media (max-width: 600px) {
+    width:100px;
+  }
+
+}
+
+.logo-canal-cut {
+ 
+  height: 80px;
+  @media (max-width: 600px) {
     height: 60px;
   }
 
@@ -7153,6 +7165,7 @@ button.close {
     font-size: 14px;
   }
 }
+
 
 .first-catchline {
   background-image: image-url('yellow-stroke.svg'); 
@@ -7210,6 +7223,47 @@ button.close {
   }
   
 }
+
+// .first-catchline {
+//   background-image: image-url('yellow-stroke.svg'); 
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+//   padding-left: 3px;
+//   padding-top: 25px;
+//   padding-bottom: 25px;
+//   line-height: 120%;
+//   @media (min-width: 1200px) {
+//     height: 74px;
+//     width: 292px;
+//     margin-top:8px;
+//     margin-left: -60px;
+//     // margin-left: -162px;
+//   }
+//    @media (max-width: 767px) {
+//     height: 80px;
+//     padding-top: 0px;
+//   }
+  
+// }
+
+// .second-catchline {
+//   // padding-top: 10px;
+//   background-image: image-url('yellow-stroke.svg'); 
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+//   padding-top: 37px;
+//   padding-bottom: 30px;
+//   @media (min-width: 1200px) {
+//     height: 72px;
+//     width: 386px;
+//     margin-left: -60px;
+//   }
+//    @media (max-width: 767px) {
+//     height: 80px;
+//     padding-top: 0px;
+//   }
+  
+// }
 
 // .ticket-image {
 //    @media (min-width: 1200px) {
@@ -7457,7 +7511,7 @@ button.close {
 .form-sections {
   font-size: 12px;
   @media (max-width: 767px) {
-    opacity: 12px;
+    // opacity: 12px;
   }
 }
 
