@@ -6981,7 +6981,7 @@ button.close {
     background-size: cover;
     background-image: image-url('circle-opacity-2.png') ;
     
-    background-position: center top;
+    background-position: center -70px;
   }
 
 }
@@ -7121,9 +7121,9 @@ button.close {
   position: absolute;
   top:0px;
   right:70px;
-  height: 140px;
+  height: 110px;
   @media (max-width: 991px) {
-    height: 130px;
+    height: 110px;
   }
   @media (max-width: 767px) {
     height: 90px;
@@ -7138,9 +7138,10 @@ button.close {
   position:absolute;
   left: 0;
   right: 0;
+  top: 100px;
   margin: auto;
   @media (max-width: 600px) {
-    width:100px;
+    width:126px;
   }
 
 }
