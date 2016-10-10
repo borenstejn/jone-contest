@@ -7118,6 +7118,7 @@ button.close {
 
 
 .logo-canal {
+  z-index: 2;
   position: absolute;
   top:0px;
   right:70px;
@@ -7133,24 +7134,29 @@ button.close {
 
 
 .logo-canal-half {
-  // background:red;
+  z-index: 2;
   width:130px;
   position:absolute;
   left: 0;
   right: 0;
-  top: 100px;
+  top: 140px;
   margin: auto;
-  @media (max-width: 600px) {
+  @media (max-width: 628px) {
     width:126px;
+    top: 120px;
+  }
+  @media (max-width: 500px) {
+    width:126px;
+    top: 100px;
   }
 
 }
 
 .logo-canal-cut {
  
-  height: 80px;
-  @media (max-width: 600px) {
-    // height: 80px;
+  height: 70px;
+  @media (max-width: 500px) {
+    height: 80px;
   }
 
 }
@@ -7646,7 +7652,7 @@ button.close {
     margin-left: -80px;
   }
   @media (max-width: 767px) {
-    top: 103px;
+    top: 120px;
     right: 24px;
   }
 }
@@ -7654,7 +7660,7 @@ button.close {
 .japanese-girl-image img {
   height: 165px;
   @media (max-width: 767px) {
-    height: 130px;
+    height: 110px;
   }
 }
 
@@ -7719,6 +7725,14 @@ button.close {
   @media (max-width: 767px) {
     font-size : 14px;
   }
+}
+
+
+.link-to-jone {
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  z-index: 1;
 }
 
 

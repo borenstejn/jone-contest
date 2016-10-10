@@ -3,8 +3,24 @@ title: "Concours J-One"
 ---
 
 <div class="all-page">
- <div class="logo-canal-full hidden-xs"><%= image_tag('canal-noir.png', :class => "logo-canal")%></div>
- <div class="logo-canal-half hidden-sm hidden-md hidden-lg"><%= image_tag('canal-noir.png', :class => "logo-canal-cut")%></div> 
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-md-offset-3">
+        <%= link_to "", "http://j-one.com", class: "link-to-jone", target: "_blank" %>
+      </div>
+    </div>
+  </div>
+
+
+  <a href="http://www.lesoffrescanal.fr/canalsat-panorama" target="_blank">
+    <div class="logo-canal-full hidden-xs"><%= image_tag('canal-noir.png', :class => "logo-canal")%></div>
+  </a>
+   
+  <a href="http://www.lesoffrescanal.fr/canalsat-panorama" target="_blank">
+    <div class="logo-canal-half hidden-sm hidden-md hidden-lg"><%= image_tag('canal-noir.png', :class => "logo-canal-cut")%></div>
+  </a>
+    
+
 <div class="over">
   <div class="main-header">
     <div class="container">
@@ -73,4 +89,13 @@ title: "Concours J-One"
   ga('send', 'pageview');
 
 </script>
+
+<script>var form = document.getElementById('formID'); // form has to have ID: <form id="formID">
+form.noValidate = true;
+form.addEventListener('submit', function(event) { // listen for form submitting
+        if (!event.target.checkValidity()) {
+            event.preventDefault(); // dismiss the default functionality
+            alert('Please, fill the form'); // error message
+        }
+    }, false);</script>
 
