@@ -11008,6 +11008,10 @@ return jQuery;
 }));
 
 
+
+
+
+
 // function checkform()
 //     {
 //         var f = document.forms[0].elements;
@@ -11021,6 +11025,18 @@ return jQuery;
 //     }
 
 
-// function test() {
+// function plouf() {
 // 	$('#submitbutton').hide();
+// }
+
+
+function test() {
+	console.log($('#inputZip').val());
+	// zip = $('#inputZip');
+	// first_name = $('#inputFirst');
+	// last_name = $('#inputName');
+	// birthday = $('#inputDate');
+	// mail = $('#inputMail');
+	// address =  $('#inputAddress');
+
 }
