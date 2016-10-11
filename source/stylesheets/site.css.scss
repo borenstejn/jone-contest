@@ -7159,13 +7159,31 @@ button.close {
   right: 0;
   top: 140px;
   margin: auto;
-  @media (max-width: 628px) {
+  @media (max-width: 800px) {
     width:126px;
     top: 120px;
   }
-  @media (max-width: 500px) {
+  @media (max-width: 628px) {
     width:126px;
-    top: 110px;
+    top: 105px;
+  }
+  @media (max-width: 600px) {
+    width:126px;
+    top: 115px;
+  }
+  @media (max-width: 537px) {
+    width:126px;
+    top: 105px;
+  }
+  @media (max-width: 500px) {
+    // width:126px;
+    top: 105px;
+    left: 28px;
+  }
+  @media (max-width: 430px) {
+    // width:126px;
+    top: 96px;
+    left: 28px;
   }
 
 }
@@ -7173,7 +7191,7 @@ button.close {
 .logo-canal-cut {
   height: 70px;
   @media (max-width: 500px) {
-    height: 70px;
+    height: 55px;
   }
 
 }
