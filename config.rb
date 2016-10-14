@@ -11,6 +11,8 @@ page '/*.txt', layout: false
 
 activate :directory_indexes  #Removes .html from file
 
+redirect 'index.html', to: 'j-one'
+
 # class_option "fonts_dir",
 #     :default => "css/fonts",
 #     :desc    => 'The path to the font files'
