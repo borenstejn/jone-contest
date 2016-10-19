@@ -98,6 +98,19 @@ document.write('<iframe src="https://3606946.fls.doubleclick.net/activityi;src=3
 </div> <!-- over-->
 
 
+<script>
+  $('a').click(function(){
+    var link = $(this).attr('href')
+    ga('send', {
+    hitType: 'event',
+    eventCategory: 'Outbound Link',
+    eventAction: 'click',
+    eventLabel: link
+  });
+    console.log('click ok');
+    console.log(link);
+  });
+</script>
 
 
 <!-- <script>checkform();</script>
