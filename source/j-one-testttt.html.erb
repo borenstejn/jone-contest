@@ -63,7 +63,7 @@ document.write('<iframe src="https://3606946.fls.doubleclick.net/activityi;src=3
 
       <div class="youtubevideowrap">
          <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/CFU8OM9ynEo" frameborder="0" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/CFU8OM9ynEo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
      
@@ -79,9 +79,30 @@ document.write('<iframe src="https://3606946.fls.doubleclick.net/activityi;src=3
         <div class="disclaimer"><span class="red-color">J-one</span><br><span class="red-color nowrap">c'est la chaîne pop culture manga à J+1 !</span></span> <br> <span class="red-color">connectée au Japon,</span> <br><span class="red-color">retrouvez les meilleurs animés</span><br><span class="red-color">juste après leur diffusion au Japon </span> <br> <span class="red-color"><span class="nowrap"> et le meilleur de la pop culture asiatique !</span></span></div>
 
       </div>
+
+      <div class="two-videos">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+
+
+            <div class="fb-video" data-href="https://www.facebook.com/JhonRachidFans/videos/10154707931002509/" data-width="auto" data-show-text="false"><blockquote cite="https://www.facebook.com/JhonRachidFans/videos/10154707931002509/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/JhonRachidFans/videos/10154707931002509/">J-ONE RACHID</a>Publié par <a href="https://www.facebook.com/JhonRachidFans/">JHON RACHID</a> sur samedi 5 novembre 2016</blockquote></div>
+
+
+
+            
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="youtubevideowrap">
+               <div class="video-container">
+                <<iframe width="560" height="315" src="https://www.youtube.com/embed/CxxOtztpFFU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>           
+          </div>
+        </div>
+      </div>
       
-    <!-- 
-      <a href="https://www.facebook.com/dialog/share?app_id=87741124305&href=https%3A//www.youtube.com/attribution_link%3Fa%3D75HtZJHHi7M%26u%3D%252Fwatch%253Fv%253DrBcbc8eWz6U%2526feature%253Dshare&display=popup&redirect_uri=https://www.youtube.com/facebook_redirect" class="btn btn-primary">Facebook Share</a> -->
+    
+      <a href="https://www.facebook.com/dialog/share?app_id=87741124305&href=https%3A//www.youtube.com/attribution_link%3Fa%3D75HtZJHHi7M%26u%3D%252Fwatch%253Fv%253DrBcbc8eWz6U%2526feature%253Dshare&display=popup&redirect_uri=https://www.youtube.com/facebook_redirect" class="btn btn-primary">Facebook Share</a>
     </div>  
     <!-- <div class="quarter-vertical-spacer"></div> -->
   </div>
@@ -97,28 +118,30 @@ document.write('<iframe src="https://3606946.fls.doubleclick.net/activityi;src=3
  
 </div> <!-- over-->
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-85484210-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-85484210-2', 'auto');
-  ga('send', 'pageview');
-
+  $('a').click(function(){
+    var link = $(this).attr('href')
+    ga('send', {
+    hitType: 'event',
+    eventCategory: 'Outbound Link',
+    eventAction: 'click',
+    eventLabel: link
+  });
+    console.log('click ok');
+    console.log(link);
+  });
 </script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8&appId=973656975981777";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 
 <!-- <script>checkform();</script>
  -->
