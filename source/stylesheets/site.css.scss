@@ -7777,6 +7777,47 @@ button.close {
 }
 
 
+.facebook-video-single {
+  @media(min-width: 992px) {
+    position: relative;
+    width: 50.7%;
+  }
+  margin-bottom: 20px;
+}
+
+
+
+.youtube-video-single {
+  width: 100%;
+  @media(min-width: 992px) {
+    width: 46%;
+  }
+  margin-bottom: 20px;
+}
+
+.two-videos {
+  margin-top: 30px;
+}
+
+
+.youtube-video-single .video-container {
+  margin-bottom: 0px !important;  
+}
+
+
+.video-subtext-div {
+   
+   margin-top: 20px;
+}
+
+.video-subtext {
+  font-family: "Museo_700";
+    padding: 5px;
+   background-color: rgb(250, 238, 88);
+
+}
+
+
 // body {
 //     -moz-transform: scale(0.6, 0.6); /* Moz-browsers */
 //     zoom: 0.6; /* Other non-webkit browsers */
